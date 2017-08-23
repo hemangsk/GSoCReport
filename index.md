@@ -62,26 +62,6 @@ activity:
    - repo: IGitt
    - link: https://gitlab.com/gitmate/open-source/IGitt/commit/9df49ee894556a8dea1d735dddadacb6aebd1542
    - details: Add notification and threads support
- - 3:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/d654330d3835d6de7a628f37222b136393eba1fc
-   - details: Add coala_online Endpoint
- - 4:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/93de4d7bbabd8d831dd19982d50eeb258266e6dd
-   - details: Add eliminate_none method
- - 5:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/2b58d950983d2bb8c686e0364f5d9abe8d806eae
-   - details: Add create_mr, create_file, delete and fork
- - 6:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/bf399738d9c38c66315f3d5d4558dd5f15ed0106
-   - details: Add content support
- - 7:
-   - repo: GitMate-2
-   - link: https://gitlab.com/gitmate/open-source/gitmate-2/commit/c4d27e0887a7afb0164ba952b1919186c5b3338c
-   - details: Add notification and threads support
 ---
 
 ### Improve coala Website and Supporting Tools
