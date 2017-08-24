@@ -18,13 +18,19 @@
 		<div class="container">
         <br>
             <div class="row no-margin">
+                <div class="col m12">
+                    <h4 class="left light">Google Summer of Code 2017 Work Product Submission </h4>
+                </div>
+                <br>
+            </div> 
+            <br>
+            <div class="row no-margin">
                 <div class="col m6">
                     <div class="card flex1">
                         <div class="card-content">
-                        <br>
-                            <h3 class="light no-margin">{{ page.student }}</h3>
-                            <br>
-                            <p>{{page.bio}}</p>
+                            <h5 class="light no-margin"><a href="{{page.organisation_link}}">{{ page.organisation }}</a></h5>
+                            <h3 class="light">{{ page.student }}</h3>
+                            <p>{{page.bio | markdownify}}</p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +39,7 @@
                         <div class="card-content">
                             <div class="center"><h4 class="light no-margin">Project Title</h4></div>
                             <br>
-                            <div class="center">{{ page.project }}</div>
+                            <div class="center"><a href="{{page.project_link}}">{{ page.project }}</a></div>
                         </div>
                     </div>
                     <div class="card flex1">
@@ -70,10 +76,10 @@
             </div>
             <br>
             <div class="row no-margin">
-                <div class="col m3">
+                <div class="col m2">
                     <div class="card flex1">
                         <div class="card-content">
-                            <div class="center"><h4 class="light no-margin">Project Tarball</h4></div>
+                            <div class="center"><h5 class="light no-margin">Project Tarball</h5></div>
                             <br>
                             <div class="center"><a href="{{ page.tarball }}">Download</a></div>
                         </div>
@@ -81,10 +87,10 @@
                 </div>
                 {% for ih in page.phase %}
                     {% for item in ih %}
-                        <div class="col m3">
-                            <div class="card">
+                        <div class="col m2">
+                            <div class="card flex1">
                                 <div class="card-content">
-                                <div class="center"><h4 class="light no-margin">Phase {{item[0]}}</h4></div>
+                                <div class="center"><h5 class="light no-margin">{{item[0]}}</h5></div>
                                 <br>
                                 <div class="center"><a href="{{item[1]}}">View Milestone</a></div>
                                 </div>
@@ -92,6 +98,15 @@
                         </div>
                     {% endfor %}
                 {% endfor %}
+                <div class="col m2">
+                    <div class="card flex1">
+                        <div class="card-content">
+                        <div class="center"><h5 class="light no-margin">Mentors</h5></div>
+                        <br>
+                        <div class="center">{{ page.mentors  | markdownify }}</div>
+                        </div>
+                    </div>
+                </div>
   
             </div>	
             <br>
