@@ -39,6 +39,11 @@ activity:
    - details: > 
       Add --allow-incomplete-sections mode and bump coala version.
  - 1:
+   - repo: coalaCSS
+   - link: https://github.com/coala/coalaCSS/commits/master?author=hemangsk
+   - details: >
+      Create a CSS library to have consistency throughout coala web projects.
+ - 1:
    - repo: coala Projects
    - link: https://github.com/coala/projects/commits/master?author=hemangsk
    - details: > 
